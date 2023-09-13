@@ -3,10 +3,16 @@
 
 #include <iostream>
 #include "Employee.h"
+#include "Manager.h"
 int main()
 {
-    Employee emp1;
-    emp1.setName("James");
+    Employee emp1("000000007", "James Bond", "MI6");
+    
+    Manager mgr1("000000001", "M", "MI6", 1000000.0);
+
+    cout << mgr1.getSSN() << endl;
+
+  
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
