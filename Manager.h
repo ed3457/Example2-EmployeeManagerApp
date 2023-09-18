@@ -9,7 +9,7 @@ public:
 	void setBonus(float b);
 	float getBonus();
 	Manager(string s, string n, string dn,float b);
-
+	void printInfo();
 
 
 };

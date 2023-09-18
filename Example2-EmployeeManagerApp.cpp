@@ -10,9 +10,12 @@ int main()
     
     Manager mgr1("000000001", "M", "MI6", 1000000.0);
 
-    cout << mgr1.getSSN() << endl;
+   // cout << mgr1.getSSN() << endl;
 
-  
+    emp1.printInfo();
+
+
+    mgr1.printInfo();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu

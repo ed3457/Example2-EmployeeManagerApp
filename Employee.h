@@ -1,5 +1,6 @@
 #pragma once
 #include <string>
+#include <iostream>
 using namespace std; 
 class Employee
 {
@@ -19,6 +20,8 @@ public:
 
 	
 	Employee(string s, string n, string dn);
+
+	void printInfo();
 
 };
 

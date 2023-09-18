@@ -34,3 +34,11 @@ string Employee::getDeptName()
 {
 	return deptName;
 }
+
+void Employee::printInfo()
+{
+	cout << "Employee Name:" << getName() << endl;
+	cout << "Employee Dept:" << getDeptName() << endl;
+	cout << "Employee SSN:" << getSSN() << endl;
+
+}
